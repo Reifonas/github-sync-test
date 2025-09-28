@@ -1,0 +1,50 @@
+# Credenciais e segurança
+.env
+.env.*
+data/auth/tokens.json
+data/users.json
+**/tokens*.json
+**/*token*
+**/*credential*
+**/*secret*
+*.key
+*.pem
+
+# Logs e relatórios temporários
+*.log
+*-report.json
+*-backup-*.json
+*.tmp
+*.temp
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build e dist
+dist/
+build/
+.next/
+.nuxt/
+
+# IDE e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos de configuração local
+config.local.json
+settings.local.json
