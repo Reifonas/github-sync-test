@@ -1,0 +1,29 @@
+{
+  "status": "error",
+  "timestamp": "2025-09-28T19:52:16.478Z",
+  "error": "Command failed: git push -u origin main",
+  "stack": "Error: Command failed: git push -u origin main\n    at genericNodeError (node:internal/errors:983:15)\n    at wrappedFn (node:internal/errors:537:14)\n    at checkExecSyncError (node:child_process:883:11)\n    at execSync (node:child_process:955:15)\n    at setupGitHubAutomatically (C:\\Users\\Marcos\\Documents\\GitHub\\GITHUB_TRACK\\auto-github-setup.cjs:283:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "troubleshooting": {
+    "token_issues": [
+      "Verificar se o token é válido e começa com \"ghp_\"",
+      "Confirmar que o token tem os scopes necessários: repo, user",
+      "Verificar se o token não expirou"
+    ],
+    "network_issues": [
+      "Verificar conectividade com GitHub (api.github.com)",
+      "Verificar se não há firewall bloqueando",
+      "Tentar novamente em alguns minutos"
+    ],
+    "permission_issues": [
+      "Verificar se o usuário tem permissão no repositório",
+      "Confirmar que o repositório existe e é acessível",
+      "Verificar se o token tem permissões de push"
+    ]
+  },
+  "recommendations": [
+    "Gerar um novo token se o atual estiver inválido",
+    "Verificar as configurações de rede",
+    "Consultar a documentação do GitHub para troubleshooting",
+    "Tentar configuração manual se o problema persistir"
+  ]
+}

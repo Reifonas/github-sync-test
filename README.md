@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 GitHub Auto Push - Funcionando!
 
 [![Status](https://img.shields.io/badge/Status-Funcionando-brightgreen.svg)]
@@ -81,3 +82,7 @@
 **Gerado automaticamente em**: 2025-09-28T19:18:13.783Z  
 **Sistema**: GitHub Auto Push v1.0  
 **Status**: ✅ Operacional
+=======
+# github-sync-test
+Repositório de teste para sincronização automática
+>>>>>>> 2546a7ebcb7ad0022ce898dd08dab1ccff6413f6
